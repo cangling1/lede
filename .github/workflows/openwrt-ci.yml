@@ -84,7 +84,6 @@ jobs:
           EOF
           
           cat >> .config <<EOF
-          CONFIG_PACKAGE_luci-app-docker=y
           CONFIG_GNUTLS_ALPN=y
           CONFIG_GNUTLS_ANON=y
           CONFIG_GNUTLS_DTLS_SRTP=y
@@ -131,7 +130,7 @@ jobs:
           CONFIG_PACKAGE_collectd-mod-rrdtool=y
           CONFIG_PACKAGE_confuse=y
           CONFIG_PACKAGE_curl=y
-          CONFIG_PACKAGE_dbus=y
+          CONFIG_PACKAGE_dbus=y         
           CONFIG_PACKAGE_e100-firmware=y
           CONFIG_PACKAGE_fdisk=y
           CONFIG_PACKAGE_forked-daapd=y
@@ -255,6 +254,7 @@ jobs:
           #CONFIG_PACKAGE_luci-app-baidupcs-web=y
           CONFIG_PACKAGE_luci-app-banip=y
           CONFIG_PACKAGE_luci-app-commands=y
+          CONFIG_PACKAGE_luci-app-docker=y
           #CONFIG_PACKAGE_luci-app-frpc=y
           #CONFIG_PACKAGE_luci-app-frps=y
           CONFIG_PACKAGE_luci-app-hd-idle=y
